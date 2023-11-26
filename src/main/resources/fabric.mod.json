@@ -8,11 +8,11 @@
 		"Apple_User_163!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Apple-User-163",
+		"sources": "https://github.com/Apple-User-163/Tool-Expansion"
 	},
 	"license": "MIT",
-	"icon": "assets/toolexpansion/icon.png",
+	"icon": "assets/toolexpansion/textures/item/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

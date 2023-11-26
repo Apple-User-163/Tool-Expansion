@@ -1,5 +1,7 @@
 package net.apple163.tool_expansion;
 
+import net.apple163.tool_expansion.item.CustomGroup;
+import net.apple163.tool_expansion.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,7 @@ public class ToolExpansion implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		CustomGroup.registerItemGroups();
+		ModItems.registerItems();
 	}
 }
