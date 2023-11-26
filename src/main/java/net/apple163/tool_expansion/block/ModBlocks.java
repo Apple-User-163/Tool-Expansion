@@ -20,10 +20,10 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
-            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS).sounds(BlockSoundGroup.DEEPSLATE), UniformIntProvider.create(3, 7)));
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS).sounds(BlockSoundGroup.DEEPSLATE).strength(28.0f), UniformIntProvider.create(3, 7)));
 
     public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.RAW_COPPER_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.RAW_COPPER_BLOCK).strength(29.0f)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

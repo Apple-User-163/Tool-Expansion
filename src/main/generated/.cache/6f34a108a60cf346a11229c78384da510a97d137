@@ -1,0 +1,12 @@
+// 1.20.2	2023-11-26T21:29:13.0678746	ToolExpansion/Model Definitions
+4b804d7923a80829b62f67e258d110928c2650c1 assets\toolexpansion\models\item\ruby_ore.json
+7cee056e8b24c25ac91d0d0c74c4c24a97fd83b3 assets\toolexpansion\models\block\ruby_ore.json
+010da7ea73b435b87189182e141d8ad3e4582376 assets\toolexpansion\models\item\raw_ruby_block.json
+eb5931d26319efb71d5bd345f4012bc99081213c assets\toolexpansion\models\block\ruby_block.json
+8fb01b9572cdeb2f9a0bbd160177f3f2af75c1b4 assets\toolexpansion\models\item\ruby.json
+690a9b083f73aeb9da34d732c6495588576e1fcf assets\toolexpansion\models\item\ruby_block.json
+0f1336ef114426cb2e70e860fc3b79c074915b43 assets\toolexpansion\blockstates\ruby_block.json
+bd35d9c7bb3125d5cd99f7a5ad084b06f102348b assets\toolexpansion\models\block\raw_ruby_block.json
+eec577e4d2a93ae3c51f9a5da4111e451cbf8274 assets\toolexpansion\blockstates\raw_ruby_block.json
+ed3a6a404555536b4fe2128612a6f6106e76f868 assets\toolexpansion\blockstates\ruby_ore.json
+4528eda89735af47e078713c7fc3b1a7aa7d5f11 assets\toolexpansion\models\item\raw_ruby.json
