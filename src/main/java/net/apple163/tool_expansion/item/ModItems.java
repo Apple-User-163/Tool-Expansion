@@ -30,7 +30,5 @@ public class ModItems
     public static void registerItems()
     {
         ToolExpansion.LOGGER.info("Registering items for " + ToolExpansion.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItems);
     }
 }

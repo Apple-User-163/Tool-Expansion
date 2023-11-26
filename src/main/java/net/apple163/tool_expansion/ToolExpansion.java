@@ -1,5 +1,6 @@
 package net.apple163.tool_expansion;
 
+import net.apple163.tool_expansion.block.ModBlocks;
 import net.apple163.tool_expansion.item.CustomGroup;
 import net.apple163.tool_expansion.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,5 +16,6 @@ public class ToolExpansion implements ModInitializer {
 	public void onInitialize() {
 		CustomGroup.registerItemGroups();
 		ModItems.registerItems();
+		ModBlocks.registerBlocks();
 	}
 }

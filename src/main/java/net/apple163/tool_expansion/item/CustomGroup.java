@@ -1,6 +1,7 @@
 package net.apple163.tool_expansion.item;
 
 import net.apple163.tool_expansion.ToolExpansion;
+import net.apple163.tool_expansion.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,7 +18,9 @@ public class CustomGroup {
                     .icon(() -> new ItemStack(ModItems.ICON)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_RUBY);
                         entries.add(ModItems.RUBY);
-
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

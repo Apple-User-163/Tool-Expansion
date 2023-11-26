@@ -2,5 +2,9 @@
   "item.toolexpansion.ruby": "Ruby",
   "item.toolexpansion.raw_ruby": "Raw Ruby",
 
+  "block.toolexpansion.ruby_ore": "Ruby Ore",
+  "block.toolexpansion.ruby_block": "Ruby Block",
+  "block.toolexpansion.raw_ruby_block": "Block of Raw Ruby",
+
   "itemgroup.toolexpansion_group": "Tool Expansion"
 }
