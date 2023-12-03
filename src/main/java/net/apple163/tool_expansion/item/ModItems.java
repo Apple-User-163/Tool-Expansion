@@ -15,6 +15,7 @@ public class ModItems
     public static final Item ICON = registerItem("icon", new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item RUBY_WAND = registerItem("ruby_wand", new Item(new FabricItemSettings().maxCount(1)));
 
     private static void addItems(FabricItemGroupEntries builder)
     {

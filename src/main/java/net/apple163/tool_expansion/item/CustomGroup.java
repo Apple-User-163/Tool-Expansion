@@ -17,6 +17,7 @@ public class CustomGroup {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.toolexpansion_group"))
                     .icon(() -> new ItemStack(ModItems.ICON)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_RUBY);
+                        entries.add(ModItems.RUBY_WAND);
                         entries.add(ModItems.RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RUBY_ORE);

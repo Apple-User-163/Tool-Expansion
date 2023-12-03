@@ -1,6 +1,7 @@
 {
   "item.toolexpansion.ruby": "Ruby",
   "item.toolexpansion.raw_ruby": "Raw Ruby",
+    "item.toolexpansion.ruby_wand": "Ruby Staff",
 
   "block.toolexpansion.ruby_ore": "Ruby Ore",
   "block.toolexpansion.ruby_block": "Ruby Block",
